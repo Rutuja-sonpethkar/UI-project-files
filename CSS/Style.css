@@ -1,0 +1,45 @@
+.main .one{
+    background-color:  pink;
+    height: 150px;
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.main .one h1{
+    background-color: orange;
+}
+.main .one p{
+    background-color: greenyellow;
+}
+.main .two{
+    background-color: cyan;
+    height: 150px;
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+}
+.main .two h1{
+    background-color:white;
+    
+}
+.main .two p{
+    background-color:burlywood ;
+    
+    
+}
+.main .three{
+    background-color: brown;
+    height: 150px;
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.main .three h1{
+     background-color: green;
+}
+.main .three p{
+     background-color: blue;
+}

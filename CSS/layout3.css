@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.conatiner{
+ width: 80%;
+ min-height: 100px;
+ border: 1px solid black;
+ margin-left: 10%;
+}
+.conatiner .logo{
+    width: 100%;
+    min-height: 100px;
+    background-color:#D4C1BB;
+    padding: 10px;
+    text-align: center;
+}
+.logo h1{
+    color: white;
+}
+.raper{
+    width:100%;
+    min-height: 100px;
+   
+    margin-top: 10px;
+    margin-bottom: 10px; 
+      
+}
+.menu{
+    width: 49%;
+    min-height: 100px;
+    float: left;
+    margin-right:1%;
+    padding-left: 20px;
+    background-color:crimson;
+}
+.from{
+    width: 49%;
+    min-height: 100px;
+    float: right;
+    background-color: crimson;
+}
+
+.menu a{
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-size:30px;
+    float: left;
+    margin-left: 10px;
+
+}
+.menu a:hover{
+    background-color: brown;
+    color: white;
+}
+
+
+.from h1{
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+} 
+.main-div{
+    width: 100%;
+    min-height: 200px;
+    background-color: cornflowerblue;
+    display: flex;
+}
+ /* .cover{
+    width: 100%;
+    min-height: 200px;
+
+}
+.cover .header{
+    width: 50%;
+    min-height: 60px;
+    background-color: brown; 
+    padding: 10px;
+}
+.header h1{
+    color:white;
+
+} */
+/* .main-box{
+    width: 100%;
+    min-height: 200px;
+    
+
+} */
+.cover{
+    width: 50%;
+    min-height: 200px;
+    background-color: turquoise;
+    margin: 10px;
+}
+
+.slider{
+    width: 40%;
+    min-height: 200px;
+    background-color: turquoise;
+margin: 10px;
+
+}
+/*.box{
+    width: 22%;
+    min-height: 300px;
+    background-color: chocolate;
+    
+    margin-top: 10px;
+
+}/*
+/* .box img{
+    width: 100%;
+    min-height: 300px;
+}
+.box:nth-child(2)
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.silder{
+    width: 50%;
+    min-height: 200px;
+    background-color: coral;
+    float: left;
+
+}
+.silder img{
+    width: 100%;
+    min-height: 300px;
+
+    
+
+}
+
+
+ */
+
+
+
+
+
+
+
+
+

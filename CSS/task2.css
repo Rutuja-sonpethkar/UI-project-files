@@ -1,0 +1,138 @@
+*{
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wraper{
+    width: 80%;
+    min-height: 300px;
+    margin: auto;
+     /* border: 1px solid black;  */
+    margin-bottom: 20px;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 8px rgb(150, 146, 146);
+    
+}
+
+.wraper .box1{
+    width: 50%;
+    min-height: 500px;
+    background-color: crimson;
+    float: left;
+    
+}
+.box1 h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 80px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+.box1 h3{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+#btn1{
+    width: 20%;
+    height: 50px;
+    margin-left: 40%;
+    padding: 20px;
+    background-color: crimson;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    border-color: white;
+    padding-bottom: 10px;
+}
+.wraper .box2{
+    width: 50%;
+    min-height: 400px;
+    text-align: center;
+    
+    padding-top: 20px;
+    margin-top: 30px;
+    float:right;
+    
+    
+}
+.box2 h1{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+.box2 img{
+    width: 50px;
+    padding: 10px;
+
+}
+ 
+.clearfix::after
+{
+    display: block;
+    content: "";
+    clear: both;
+}
+.box2 h2{
+    color: black;
+    font-size:25px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+#un ,  #eid,#pass{
+    width: 80%;
+    margin: auto;
+}
+#btn2{
+    width:25%;
+    height:40px ;
+    background-color: crimson;
+    font-size: 25px;
+    margin: auto;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 20px;
+    border-color: white;
+}
+#btn2{
+    background-color: crimson;
+    color: white;
+}
+input[type=email]
+    {
+        outline: 0px;
+    }
+    input[type=passwor]{
+        outline: 0px;
+    }
+    ::placeholder{
+        color: rgb(110, 114, 114);
+        font-size: 25;
+    }#un,#eid,#pass{
+        height: 40px;
+        margin-top: 15px;
+        font-size: 20px;
+        padding-left: 15px;
+        border: none;
+        background-color: rgb(231, 224, 224);
+        color:black;
+        border-radius: 15px 15px;
+    }
